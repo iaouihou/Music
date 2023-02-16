@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.example.musicplayer2.MainActivity" >
+    <!---显示头像的图像按钮-->
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile" />
+    <!---选项的图像按钮-->
+    <ImageButton
+        android:id="@+id/option"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/option" />
+    <!---搜索的图像按钮-->
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search" />
+
+    <!---退出的图像按钮-->
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/exit2" />
+
+    <Button
+        android:id="@+id/bendi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#6200ee"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="本地音乐"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/woxihuan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bendi"
+        android:background="#6200ee"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="我喜欢"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
